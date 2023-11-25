@@ -1,0 +1,75 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "title": "V-neck Sleeveless",
+      "image": "image1.png",
+      "price": "5.80",
+      "strikedPrice": "8.00",
+      "discount": "10%",
+      "gender": "women",
+      "category": "Shirts"
+    },
+    {
+      "id": 2,
+      "title": "BodySuit",
+      "image": "image2.png",
+      "price": "8.10",
+      "strikedPrice": "9.00",
+      "discount": "10%",
+      "gender": "women",
+      "category": "Dress"
+    },
+    {
+      "id": 3,
+      "title": "Sleeveless Tshirt",
+      "image": "image3.png",
+      "price": "7.10",
+      "strikedPrice": "9.00",
+      "discount": "10%",
+      "gender": "women",
+      "category": "Skirt"
+    },
+    {
+      "id": 4,
+      "title": "Sleeveless Tshirt",
+      "image": "image4.png",
+      "price": "7.10",
+      "strikedPrice": "9.00",
+      "discount": "10%",
+      "gender": "men",
+      "category": "Shirts"
+    },
+    {
+      "id": 5,
+      "title": "Zip Up Hoodie",
+      "image": "image5.png",
+      "price": "10.10",
+      "strikedPrice": "15.00",
+      "discount": "10%",
+      "gender": "men",
+      "category": "Sports"
+    },
+    {
+      "id": 6,
+      "title": "Zip Up Hoodie",
+      "image": "image6.png",
+      "price": "10.10",
+      "strikedPrice": "15.00",
+      "discount": "10%",
+      "gender": "men",
+      "category": "Sports"
+    },
+    {
+      "id": 7,
+      "title": "Zip Up Hoodie",
+      "image": "image7.png",
+      "price": "10.10",
+      "strikedPrice": "15.00",
+      "discount": "10%",
+      "gender": "men",
+      "category": "Sports"
+    }
+  ],
+  "Cart": []
+}

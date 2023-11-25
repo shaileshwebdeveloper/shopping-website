@@ -1,0 +1,134 @@
+
+.bannerImage{
+    position: relative;
+}
+
+.bannerTextBox{
+  position: absolute;
+  top: 60%;
+  right: 50%;
+}
+
+.bannerText{
+  color: var(--gray-white, #FFF);
+  font-family: Syne;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+  .bannerTextBox{
+    position: absolute;
+    top: 60%;
+    right: 40%;
+  }
+
+.bannerText{
+  color: var(--gray-white, #FFF);
+  font-family: Syne;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+}
+
+
+.discountContainer {
+  position: relative;
+  background-size: cover;
+}
+ 
+.discountText {
+  position: absolute;
+  top: 10%;
+  right: 70%;
+  height: 20px;
+  width: 80px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  align-items: center;
+  padding : 2px 0px;
+  border-radius: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+.discountText {
+  position: absolute;
+  top: 10%;
+  right: 60%;
+  height: 20px;
+  width: 60px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  align-items: center;
+  padding : 2px 0px;
+  border-radius: 5px;
+  }
+}
+
+
+/* TABLET */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+  .bannerImage{
+    position: relative;
+    height: 300px;
+}
+
+  .bannerTextBox{
+    position: absolute;
+    top: 75%;
+    right: 60%;
+  }
+
+.bannerText{
+  color: var(--gray-white, #FFF);
+  font-family: Syne;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.discountContainer {
+  position: relative;
+  background-size: cover;
+
+}
+
+.discountText {
+  position: absolute;
+  top: 10%;
+  right: 75%;
+  height: 20px;
+  width: 50px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  align-items: center;
+  padding : 2px 0px;
+  border-radius: 5px;
+  }
+
+ 
+
+
+}
+
+
+
+
+
